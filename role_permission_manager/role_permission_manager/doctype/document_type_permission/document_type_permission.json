@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-12 13:23:51.322491",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "permissions_section",
+  "read_perm",
+  "write_perm",
+  "create_perm",
+  "submit_perm",
+  "cancel_perm",
+  "amend_perm",
+  "delete_perm",
+  "column_break_8ckz",
+  "if_owner_perm",
+  "report_perm",
+  "export_perm",
+  "import_perm",
+  "share_perm",
+  "print_perm",
+  "email_perm"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Document Type",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "permissions_section",
+   "fieldtype": "Section Break",
+   "label": "Permissions"
+  },
+  {
+   "fieldname": "column_break_8ckz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "email_perm",
+   "fieldtype": "Check",
+   "label": "Email"
+  },
+  {
+   "default": "0",
+   "fieldname": "share_perm",
+   "fieldtype": "Check",
+   "label": "Share"
+  },
+  {
+   "default": "0",
+   "fieldname": "print_perm",
+   "fieldtype": "Check",
+   "label": "Print"
+  },
+  {
+   "default": "0",
+   "fieldname": "read_perm",
+   "fieldtype": "Check",
+   "label": "Read"
+  },
+  {
+   "default": "0",
+   "fieldname": "write_perm",
+   "fieldtype": "Check",
+   "label": "Write"
+  },
+  {
+   "default": "0",
+   "fieldname": "create_perm",
+   "fieldtype": "Check",
+   "label": "Create"
+  },
+  {
+   "default": "0",
+   "fieldname": "submit_perm",
+   "fieldtype": "Check",
+   "label": "Submit"
+  },
+  {
+   "default": "0",
+   "fieldname": "cancel_perm",
+   "fieldtype": "Check",
+   "label": "Cancel"
+  },
+  {
+   "default": "0",
+   "fieldname": "amend_perm",
+   "fieldtype": "Check",
+   "label": "Amend"
+  },
+  {
+   "default": "0",
+   "fieldname": "delete_perm",
+   "fieldtype": "Check",
+   "label": "Delete"
+  },
+  {
+   "default": "0",
+   "fieldname": "if_owner_perm",
+   "fieldtype": "Check",
+   "label": "Only if Creator"
+  },
+  {
+   "default": "0",
+   "fieldname": "report_perm",
+   "fieldtype": "Check",
+   "label": "Report"
+  },
+  {
+   "default": "0",
+   "fieldname": "export_perm",
+   "fieldtype": "Check",
+   "label": "Export"
+  },
+  {
+   "default": "0",
+   "fieldname": "import_perm",
+   "fieldtype": "Check",
+   "label": "Import"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-12 17:36:48.141875",
+ "modified_by": "Administrator",
+ "module": "Role Permission Manager",
+ "name": "Document Type Permission",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,22 @@
+{
+ "content": null,
+ "creation": "2024-05-25 14:32:42.221002",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-05-25 14:32:42.221002",
+ "modified_by": "Administrator",
+ "module": "Role Permission Manager",
+ "name": "test-page",
+ "owner": "Administrator",
+ "page_name": "test-page",
+ "roles": [
+  {
+   "role": "Test Role"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0
+}

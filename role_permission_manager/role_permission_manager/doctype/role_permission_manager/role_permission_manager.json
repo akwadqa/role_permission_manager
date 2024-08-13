@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:role",
+ "creation": "2024-05-12 13:14:46.869841",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "role",
+  "document_types_and_permissions_section",
+  "document_type_permissions",
+  "document_type_select_permissions",
+  "other_permissions",
+  "page_and_report_permissions"
+ ],
+ "fields": [
+  {
+   "fieldname": "role",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Role",
+   "options": "Role",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "document_types_and_permissions_section",
+   "fieldtype": "Section Break",
+   "label": "Document Types and Permissions"
+  },
+  {
+   "fieldname": "document_type_permissions",
+   "fieldtype": "Table",
+   "label": "Document Type Permissions",
+   "options": "Document Type Permission"
+  },
+  {
+   "fieldname": "document_type_select_permissions",
+   "fieldtype": "Table",
+   "label": "Document Type Select Permissions",
+   "options": "Document Type Select Permission",
+   "read_only": 1
+  },
+  {
+   "fieldname": "other_permissions",
+   "fieldtype": "Section Break",
+   "label": "Other Permissions"
+  },
+  {
+   "fieldname": "page_and_report_permissions",
+   "fieldtype": "Table",
+   "label": "Page and Report Permissions ",
+   "options": "Permission for Page and Report"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-25 13:22:55.714940",
+ "modified_by": "Administrator",
+ "module": "Role Permission Manager",
+ "name": "Role Permission Manager",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

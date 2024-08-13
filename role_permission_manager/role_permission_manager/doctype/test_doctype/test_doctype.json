@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-12 15:15:39.659018",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "test",
+  "test_link"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "test",
+   "fieldtype": "Check",
+   "label": "test"
+  },
+  {
+   "fieldname": "test_link",
+   "fieldtype": "Link",
+   "label": "test link",
+   "options": "Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-20 15:37:30.198095",
+ "modified_by": "Administrator",
+ "module": "Role Permission Manager",
+ "name": "test doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Test Role",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
