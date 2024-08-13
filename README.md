@@ -4,4 +4,4 @@ Custom app for permission management.
 
 #### License
 
-mit
+mit# role_permission_manager
