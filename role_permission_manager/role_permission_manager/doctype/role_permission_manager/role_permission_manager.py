@@ -41,12 +41,12 @@ class RolePermissionManager(Document):
 		if not self.role:
 			frappe.throw(_("The field {0} is mandatory").format(frappe.bold(_("Role"))))
 
-		if not frappe.db.get_value("Role", self.role, "is_custom"):
-			frappe.throw(
-				_("The role {0} should be a custom role.").format(
-					frappe.bold(get_link_to_form("Role", self.role))
-				)
-			)
+		# if not frappe.db.get_value("Role", self.role, "is_custom"):
+		# 	frappe.throw(
+		# 		_("The role {0} should be a custom role.").format(
+		# 			frappe.bold(get_link_to_form("Role", self.role))
+		# 		)
+		# 	)
 
 	
 	def add_role_permissions_for_user_doctypes(self):

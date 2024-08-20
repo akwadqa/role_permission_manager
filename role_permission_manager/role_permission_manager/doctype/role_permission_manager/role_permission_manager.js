@@ -6,7 +6,7 @@ frappe.ui.form.on("Role Permission Manager", {
         frm.set_query("role", function () {
 			return {
 				filters: {
-					is_custom: 1,
+					// is_custom: 1,
 					disabled: 0,
 					desk_access: 1,
 				},
